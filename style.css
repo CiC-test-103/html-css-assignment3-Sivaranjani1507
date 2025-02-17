@@ -47,6 +47,182 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /** Your CSS Below **/
+.container{
+  display:flex;
+  justify-items:center;
+  border:2px solid black;
+  margin:  auto;
+  padding:10px;
+  height:auto;
+  background-color:var( --clr-stone100);
+}
+.block-flex-column{
+  background-color:white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  margin: 100px;
+  margin-left:300px;
+  margin-right:300px;
+}
+  
+.image {
+  flex-direction:column ;
+  margin:30px;
+  width:auto;
+}
+.image img{
+  border-radius:10px;
+}
+
+.part1{
+  display:flex;
+  flex-direction: column;
+ 
+}
+.part1 h1{
+ 
+  font-style: var( --font-header);
+ 
+  font-family:var(  --fs-accent);
+  font-weight:var(--fw-black);
+  padding:10px;
+  margin-left:20px; 
+} 
+
+.part1 p{
+  font-style:var(--font-paragraph);
+  font-family:var(--fs-base) ;
+  font-weight:var(--fw-regular);
+  margin-left: 30px;
+  margin-right:30px;
+}
+  
+section{
+  padding:20px;
+ 
+  margin:30px;
+  display:flex;
+  flex-direction:column;
+  background-color: var(--clr-rose50);
+  border-radius: 10px;
+}
+
+section h3{
+  font-family: var(--fs-base);
+  color: var( --clr-rose800);
+  padding: 10px;
+}
+section h4{
+  font-weight:var(--fw-bold);
+  font-family:var(--fs-base) ;
+}
+section h4,p{
+  display:inline;
+}
+
+
+section ul li{
+  font-weight:var( --fw-regular);
+  font-family:var(--fs-base) ;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+section ul li::marker{
+  color:var(--clr-rose800);
+}
+
+.ingredients{
+  display:flex;
+  flex-direction:column;
+  margin-left:30px; 
+  
+}
+
+.ingredients h2{
+  color: var( --clr-brown800);
+  font-family:var(--fs-accent);
+  font-weight:var(--fw-regular);
+  padding-bottom: 10px;
+}
+.ingredients ul li{
+  font-weight:var( --fw-regular);
+  font-family:var(--fs-base) ;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  
+}
+
+.ingredients ul li::marker{
+  color:var(--clr-brown800);
+}
+.instruction{
+  display:flex;
+  flex-direction:column;
+  margin-left:30px;
+  
+}
+.instruction h2{
+  color: var( --clr-brown800);
+  font-family:var(--fs-accent);
+  font-weight:var(--fw-regular);
+}
+.instruction ol li{
+  font-weight:var( --fw-regular);
+  font-family:var(--fs-base) ;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  margin-right:30px;
+}
+.instruction h4,p{
+  display:inline
+}
+
+.instruction ol li::marker{
+  color: var( --clr-brown800);
+  font-weight:var(--fw-bold);
+} 
+
+.nutrition h2{
+  display:flex;
+  color: var( --clr-brown800);
+  font-family:var(--fs-accent);
+  font-weight:var(--fw-regular);
+  margin-left:30px;
+}
+ 
+.nutrition p{
+  font-style:var(--font-paragraph);
+  font-family:var(--fs-base) ;
+  font-weight:var(--fw-regular);
+  margin-left: 30px;
+  margin-right:30px;
+}
+h3{
+  display:inline-block;
+  vertical-align: middle;
+  height:auto;
+  font-weight: var(--fw-bold);
+  color: var(--clr-brown800);
+  font-family:var(--fs-base)
+}
+ 
+ p.table {
+  display:inline-block;
+  height:auto;
+  width: 300px;
+  margin-left:15%;
+  font-weight:var(--fw-regular);
+  font-family:var(--fs-base);
+}
+
+hr{
+  margin:20px;
+  margin-left:30px;
+  margin-right:30px;
+}
+
 
 /** Attribution CSS **/
 .attribution { font-size: 11px; text-align: center; }
